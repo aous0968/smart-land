@@ -3,8 +3,8 @@
 A static, bilingual, multimedia-rich website for **Smart Land**, a
 technology consulting and AI solutions company founded in 2011.
 
-> **Course:** Multimedia Systems (ITE_BMM601 + ISE_MM) — Fall 2025
-> **Institution:** Syrian Virtual University
+> **Course:** Multimedia Systems (ITE_BMM601) — Fall 2026\
+> **Institution:** Syrian Virtual University\
 > **Live site:** _add URL after deployment_
 
 ---
@@ -62,49 +62,61 @@ with Vite and React and deployed to Vercel.
 ---
 
 ## Project structure
+
+```
 smart-land/
-├─ public/
-│ ├─ brand/ logo assets (SVG)
-│ │ ├─ mark.svg icon-only mark
-│ │ ├─ logo-dark.svg white wordmark (dark backgrounds)
-│ │ └─ logo-light.svg ink wordmark (light backgrounds)
-│ ├─ images/ WEBP images (hero, projects, team, office)
-│ └─ videos/ MP4 videos (intro, products)
 │
-├─ src/
-│ ├─ components/
-│ │ ├─ Layout.jsx page shell (TopStrip + Navbar + Footer)
-│ │ ├─ TopStrip.jsx language + theme controls
-│ │ ├─ Navbar.jsx sticky nav with mobile drawer
-│ │ ├─ Footer.jsx footer with contact info
-│ │ ├─ ProductMark.jsx monogram tile for products
-│ │ └─ ScrollToTop.jsx resets scroll on route change
-│ │
-│ ├─ context/
-│ │ └─ ThemeContext.jsx light / dark state + persistence
-│ │
-│ ├─ i18n/
-│ │ ├─ index.js i18next configuration
-│ │ └─ locales/
-│ │ ├─ en.json English strings
-│ │ └─ ar.json Arabic strings
-│ │
-│ ├─ pages/
-│ │ ├─ Home.jsx hero, stats, intro, services, work, video, CTA
-│ │ ├─ About.jsx story, timeline, product grid
-│ │ ├─ Services.jsx six services, four-step process
-│ │ ├─ Projects.jsx three featured + three secondary
-│ │ ├─ Contact.jsx contact details and office image
-│ │ └─ NotFound.jsx 404 page
-│ │
-│ ├─ App.jsx routes + direction sync
-│ ├─ main.jsx entry point
-│ └─ index.css Tailwind import + brand tokens
+├── public/
+│   ├── brand/                    Logo assets (SVG)
+│   │   ├── mark.svg              Icon-only mark
+│   │   ├── logo-dark.svg         White wordmark (for dark backgrounds)
+│   │   └── logo-light.svg        Ink wordmark (for light backgrounds)
+│   ├── images/                   WEBP images
+│   │   ├── hero.webp
+│   │   ├── about-team.webp
+│   │   ├── project-mykey.webp
+│   │   ├── project-sada.webp
+│   │   ├── project-signal.webp
+│   │   └── contact-office.webp
+│   └── videos/                   MP4 videos
+│       ├── intro.mp4
+│       └── products.mp4
 │
-├─ index.html HTML shell, meta tags, favicon
-├─ vite.config.js Vite + React + Tailwind plugins
-├─ package.json
-└─ README.md
+├── src/
+│   ├── components/
+│   │   ├── Layout.jsx            Page shell (TopStrip + Navbar + Footer)
+│   │   ├── TopStrip.jsx          Language + theme controls
+│   │   ├── Navbar.jsx            Sticky nav with mobile drawer
+│   │   ├── Footer.jsx            Footer with contact info
+│   │   ├── ProductMark.jsx       Monogram tile for products
+│   │   └── ScrollToTop.jsx       Resets scroll on route change
+│   │
+│   ├── context/
+│   │   └── ThemeContext.jsx      Light / dark state + persistence
+│   │
+│   ├── i18n/
+│   │   ├── index.js              i18next configuration
+│   │   └── locales/
+│   │       ├── en.json           English strings
+│   │       └── ar.json           Arabic strings
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx              Hero, stats, intro, services, work, video, CTA
+│   │   ├── About.jsx             Story, timeline, product grid
+│   │   ├── Services.jsx          Six services, four-step process
+│   │   ├── Projects.jsx          Three featured + three secondary
+│   │   ├── Contact.jsx           Contact details and office image
+│   │   └── NotFound.jsx          404 page
+│   │
+│   ├── App.jsx                   Routes + direction sync
+│   ├── main.jsx                  Entry point
+│   └── index.css                 Tailwind import + brand tokens
+│
+├── index.html                    HTML shell, meta tags, favicon
+├── vite.config.js                Vite + React + Tailwind plugins
+├── package.json
+└── README.md
+```
 
 ---
 
