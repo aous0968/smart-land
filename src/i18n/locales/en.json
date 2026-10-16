@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cta": "Start a project"
+  },
+  "hero": {
+    "badge": "AI-powered since 2011",
+    "title1": "Smart software.",
+    "title2": "Real impact.",
+    "subtitle": "We design and build custom software and AI solutions for healthcare, education, retail, and real estate — delivered by a team that has shipped for 14 years.",
+    "seeWork": "See our work",
+    "startProject": "Start a project",
+    "mediaPlaceholder": "hero video / image"
+  },
+  "stats": {
+    "founded": "Founded",
+    "products": "Products shipped",
+    "industries": "Industries served",
+    "ai": "AI integrated"
+  },
+  "intro": {
+    "title": "A consulting partner, not just a vendor.",
+    "body": "Smart Land was founded in 2011 to deliver custom software for organizations that needed more than off-the-shelf tools. Fourteen years later, our portfolio spans sign-language translation, e-commerce, remote learning, and hospital management — with AI woven into each one.",
+    "more": "More about us"
+  },
+  "services": {
+    "title": "What we build",
+    "body": "Four practice areas, one team. We move between them often — most of our clients use more than one.",
+    "custom": "Custom software",
+    "customBody": "Bespoke platforms built around your workflow, not the other way around.",
+    "ai": "AI integration",
+    "aiBody": "Practical AI features — translation, recommendations, automation — inside products you already use.",
+    "elearning": "E-learning systems",
+    "elearningBody": "Remote learning platforms with course delivery, tracking, and live sessions.",
+    "health": "Healthcare systems",
+    "healthBody": "Hospital management, patient records, and clinical workflows.",
+    "all": "All services"
+  },
+  "featured": {
+    "title": "Featured work",
+    "body": "A small selection from a portfolio of platforms used in production today.",
+    "all": "All projects",
+    "accessibility": "Accessibility",
+    "ecommerce": "E-commerce",
+    "realestate": "Real estate",
+    "mykeyBody": "Real-time sign-language translation that turns spoken audio into signing avatars.",
+    "sadaBody": "A multi-store platform where sellers launch, manage, and scale their own shops.",
+    "signalBody": "Marketplace for properties and vehicles with listing, search, and rental tools."
+  },
+  "video": {
+    "title": "See Smart Land in motion.",
+    "body": "A short film about how our products reach real users — from accessibility tools to hospital systems.",
+    "comingSoon": "intro video coming soon"
+  },
+  "closing": {
+    "title": "Have something to build?",
+    "body": "Tell us about the problem. We'll tell you honestly whether we're the right team for it.",
+    "cta": "Start a project"
+  },
+  "footer": {
+    "tagline": "Smart software. Real impact. Since 2011.",
+    "company": "Company",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "about": {
+    "title": "About Smart Land",
+    "lead": "A consulting and technology firm building custom software and AI solutions since 2011.",
+    "storyTitle": "Our story",
+    "story1": "Smart Land was founded in Damascus in 2011 with a simple premise: organizations deserve software built around their actual work, not forced into generic tools.",
+    "story2": "Over fourteen years we've grown from a small consultancy into a multi-product company, shipping accessibility tools, e-commerce platforms, learning systems, and healthcare software — with AI integrated into every layer.",
+    "timelineTitle": "Milestones",
+    "timeline2011": "Smart Land founded in Damascus.",
+    "timeline2015": "First enterprise deployment in healthcare.",
+    "timeline2019": "MyKey launches — sign-language translation at scale.",
+    "timeline2023": "AI integrated across the full product portfolio.",
+    "productsTitle": "Our products",
+    "pMyKey": "Real-time sign-language translation platform.",
+    "pSignal": "Marketplace for properties and vehicles.",
+    "pWelcome": "Remote learning platform with live sessions.",
+    "pSada": "Multi-store e-commerce system.",
+    "pHospital": "Hospital management and patient records.",
+    "pRealestate": "Listings, search, and rental tools."
+  },
+  "contact": {
+    "title": "Get in touch",
+    "lead": "Tell us about the problem you're trying to solve. We'll reply within two business days.",
+    "email": "Email",
+    "address": "Address",
+    "addressValue": "Damascus, Syria",
+    "phone": "Phone"
+  },
+  "servicesPage": {
+    "title": "Services",
+    "lead": "Six practice areas, one team. Most of our clients use more than one — and we're built for that.",
+    "custom": "Custom software",
+    "customBody": "Bespoke platforms built around your workflow, from internal tools to customer-facing products.",
+    "ai": "AI integration",
+    "aiBody": "Practical AI features — translation, recommendations, document analysis, automation — layered into products you already rely on.",
+    "elearning": "E-learning systems",
+    "elearningBody": "Remote learning platforms with course delivery, progress tracking, live sessions, and assessment.",
+    "health": "Healthcare systems",
+    "healthBody": "Hospital management, patient records, scheduling, and clinical workflow tools.",
+    "ecommerce": "E-commerce platforms",
+    "ecommerceBody": "Multi-store marketplaces, catalog management, payments, and logistics integration.",
+    "realestate": "Real estate & vehicles",
+    "realestateBody": "Listing platforms with search, filters, media galleries, rental workflows, and agent tools.",
+    "processTitle": "How we work",
+    "discover": "Discover",
+    "discoverBody": "We sit with your team, understand the real problem, and define what success looks like.",
+    "design": "Design",
+    "designBody": "Wireframes and prototypes reviewed with you before a line of production code is written.",
+    "build": "Build",
+    "buildBody": "Iterative delivery in two-week cycles, with working software you can test throughout.",
+    "support": "Support",
+    "supportBody": "After launch we stay on: monitoring, updates, and a direct line to the team that built it.",
+    "ctaTitle": "Not sure which you need?",
+    "cta": "Talk to us"
+  },
+  "projectsPage": {
+    "title": "Projects",
+    "lead": "Six products shipped since 2011. Three of them carry the story of where we're going.",
+
+    "mykeyBody": "MyKey turns spoken audio into real-time sign-language animation, giving deaf and hard-of-hearing users access to conversations, lectures, and public services that were never designed for them.",
+    "mykeyPoint1": "Real-time audio-to-sign translation engine",
+    "mykeyPoint2": "Arabic and English sign-language support",
+    "mykeyPoint3": "Embedded into kiosks, classrooms, and broadcasts",
+
+    "sadaBody": "Sada is a multi-store e-commerce platform where sellers launch, brand, and manage their own storefronts on shared infrastructure — payments, logistics, and analytics included.",
+    "sadaPoint1": "Per-store storefronts and catalogs",
+    "sadaPoint2": "Integrated payments and shipping",
+    "sadaPoint3": "Vendor dashboard with live analytics",
+
+    "signalBody": "Smart Signal is a marketplace for properties and vehicles with listing tools, advanced search, rental workflows, and agent dashboards.",
+    "signalPoint1": "Property and vehicle listings with rich media",
+    "signalPoint2": "Advanced search by location, price, and type",
+    "signalPoint3": "Rental and sale workflows with agent tools",
+
+    "moreTitle": "Also in the portfolio",
+    "moreLead": "The rest of what we've shipped, in brief.",
+
+    "welcome": "Welcome",
+    "welcomeBody": "Remote learning platform with live sessions, course delivery, progress tracking, and assessment.",
+
+    "hospital": "Hospital Management",
+    "hospitalBody": "Patient records, scheduling, department workflows, and reporting for mid-size hospitals.",
+
+    "billing": "Smart Billing",
+    "billingBody": "Invoicing, subscriptions, and payment reconciliation for service businesses.",
+
+    "ctaTitle": "Want the full case studies?",
+    "ctaBody": "We can walk you through any of these in detail — architecture, timeline, and results.",
+    "cta": "Request a walkthrough"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you're looking for doesn't exist or has moved.",
+    "back": "Back home"
+  }
+}
