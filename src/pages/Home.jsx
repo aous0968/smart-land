@@ -242,13 +242,22 @@ function VideoTeaser() {
           <h2 className="font-display text-3xl font-bold md:text-4xl">
             {t('video.title')}
           </h2>
-          <p className="mt-4 max-w-md text-sand/80">{t('video.body')}</p>
+          <p className="mt-4 max-w-md text-sand/80">
+            {t('video.body')}
+          </p>
         </div>
-        <div className="relative aspect-video overflow-hidden rounded-2xl bg-ink">
-          <div className="flex h-full flex-col items-center justify-center gap-3 text-sand/50">
-            <PlayCircle size={48} />
-            <span className="text-sm">{t('video.comingSoon')}</span>
-          </div>
+        
+        {/* The Video Player */}
+        <div className="relative aspect-video overflow-hidden rounded-2xl bg-ink shadow-2xl">
+          <video
+            controls
+            preload="metadata"
+            poster="/images/video-poster.webp" 
+            className="h-full w-full object-cover"
+          >
+            <source src="/videos/intro.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </section>
