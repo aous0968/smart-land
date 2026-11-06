@@ -5,7 +5,7 @@ technology consulting and AI solutions company founded in 2011.
 
 > **Course:** Multimedia Systems (ITE_BMM601) — Fall 2026\
 > **Institution:** Syrian Virtual University\
-> **Live site:** _add URL after deployment_
+> **Live site:** https://smart-land-six.vercel.app
 
 ---
 
